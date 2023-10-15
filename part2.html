@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2: Deck of Cards</title>
+</head>
+
+<body style="background-color: green;">
+    <h1>Deck of Cards</h1>
+
+    <!-- 3. Build an HTML page that lets you draw cards from a deck. When the page loads, go to the Deck of Cards API to create a new deck, and show a button on the page that will let you draw a card. Every time you click the button, display a new card, until there are no cards left in the deck. -->
+    <div class="deck-of-cards">
+        <button class="draw-card-btn" type="button"
+            style="padding: .5rem 1rem; border-radius: 1rem; margin-bottom: 2rem; cursor: pointer;">Gimme A
+            Card!</button>
+        <div class="card-stack" style="display: flex; flex-wrap: wrap;">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"
+        integrity="sha512-emSwuKiMyYedRwflbZB2ghzX8Cw8fmNVgZ6yQNNXXagFzFOaQmbvQ1vmDkddHjm5AITcBIZfC7k4ShQSjgPAmQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="deckOfCards.js"></script>
+</body>
+
+</html>
